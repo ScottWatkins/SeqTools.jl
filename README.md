@@ -1,4 +1,6 @@
 # SeqTools
+A julia package for the fast manipulation of DNA sequences.
+This package is a work in progress.
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://scott.watkins@genetics.utah.edu.github.io/SeqTools.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://scott.watkins@genetics.utah.edu.github.io/SeqTools.jl/dev)
