@@ -1,8 +1,8 @@
 module SeqTools
 println("Welcome to SeqTools ver 0.1.0")
-import DelimitedFiles
-import Statistics
-import Plots
+using DelimitedFiles
+using Statistics
+using Plots
 
 export readbed
 export readfasta
