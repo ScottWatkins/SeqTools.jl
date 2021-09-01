@@ -5,8 +5,9 @@ Run the gc_simple function over genomic positions with user defined window size 
 
 The refseq input is generated using the readfasta function.
 """
-function gc_windows(positions::Array, ref::NamedTuple; window=100, step=10, noslide=false)
+function gc_windows(positions::Array, refseq::NamedTuple; window=100, step=10, noslide=false)
 
+    ref = refseq
     m = []
     xvals = []
 
