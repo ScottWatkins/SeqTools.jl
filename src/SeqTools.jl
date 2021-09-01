@@ -15,6 +15,4 @@ include("sliding_window.jl")
 include("getref.jl")
 include("gc_windows.jl")
 
-testmean = mean([1,2,3])
-
 end
