@@ -1,5 +1,7 @@
 module SeqTools
+
 println("Welcome to SeqTools ver 0.1.0")
+
 using DelimitedFiles, Statistics, Plots
 
 export readbed
