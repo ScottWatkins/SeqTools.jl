@@ -15,4 +15,7 @@ include("sliding_window.jl")
 include("getref.jl")
 include("gc_windows.jl")
 
+a = [1,2,3]
+b = mean(a)
+println("mean=", b)
 end
