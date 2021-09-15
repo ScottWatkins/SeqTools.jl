@@ -1,9 +1,9 @@
 """
     gc_windows(positions::Array, refseq::NamedTuple; window=100, step=10, noslide=false)
 
-Run the gc_simple function over genomic positions with user defined window size and step. Positions are an array of 1:123-345 style positions. Note that a genomic feature may be skipped by inputing a 2D matrix of postions (e.g. 1:100-200  1:230-300). 
+Calculate the average GC content for genomic regions using a sliding window. Positions are input as an array of positions (1:200-300). Note that a genomic feature may be skipped by inputing a 2D matrix of postions (e.g. 1:100-200  1:230-300). 
 
-The refseq input is generated using the readfasta function.
+The positions array is created using the readbed function and the refseq input is generated using the readfasta function.
 """
 function gc_windows(positions::Array, refseq::NamedTuple; window=100, step=10, noslide=false)
 
